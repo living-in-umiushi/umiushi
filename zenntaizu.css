@@ -29,7 +29,7 @@
 
 
     #canvas_stamp_sample {
-            background: #FFFFFF; /* canvasの色を指定 */
+            background: #FFFFFF; /* canvas�̐F���w�� */
             border: solid 1px #000000;
             border-radius: 8px;
            }
@@ -97,7 +97,7 @@
             /*  background: rgb(211, 110, 76); */
     }
 
-     /* css つまみサイズと色を調整 */
+     /* css �܂݃T�C�Y�ƐF�𒲐� */
      #eraser_size .ui-slider-handle {
 
                   width:15px;
@@ -166,7 +166,7 @@
 
       }
 
-     /* css つまみサイズと色を調整 */
+     /* css �܂݃T�C�Y�ƐF�𒲐� */
      #pen_sizebar.ui-slider-handle,#eraser_sizebar.ui-slider-handle{
 
                   width:1px;
