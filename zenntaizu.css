@@ -1,4 +1,6 @@
-
+     #canvas{
+             border: 2px solid;
+     }
 
       #sidebar_func{
               /* background: #f4f4f4; */
@@ -22,14 +24,14 @@
           padding: 0 9px;
           line-height: 1;
           font-size: 19px;
-            /* background: #f4f4f4;   */   
+          background: #FFFFFF;     
           color: #FFC107;
           font-weight: bold;
       }
 
 
     #canvas_stamp_sample {
-            background: #FFFFFF; /* canvas�̐F���w�� */
+            background: #FFFFFF; /* canvasの色を指定 */
             border: solid 1px #000000;
             border-radius: 8px;
            }
@@ -97,7 +99,7 @@
             /*  background: rgb(211, 110, 76); */
     }
 
-     /* css �܂݃T�C�Y�ƐF�𒲐� */
+     /* css つまみサイズと色を調整 */
      #eraser_size .ui-slider-handle {
 
                   width:15px;
@@ -166,7 +168,7 @@
 
       }
 
-     /* css �܂݃T�C�Y�ƐF�𒲐� */
+     /* css つまみサイズと色を調整 */
      #pen_sizebar.ui-slider-handle,#eraser_sizebar.ui-slider-handle{
 
                   width:1px;
@@ -204,4 +206,6 @@
      }
 
      #green_colorbar .ui-slider-range { background:#cbffA4; }
+
+
 
