@@ -126,6 +126,11 @@
 
             }
 
+    #eraser_circle{
+              background: #FFFFFF;
+              border: 1px #000000;
+    }
+
     #color_name{  
                   float:left;
                   margin-left:15px;
@@ -206,6 +211,4 @@
      }
 
      #green_colorbar .ui-slider-range { background:#cbffA4; }
-
-
 
