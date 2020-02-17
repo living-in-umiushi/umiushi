@@ -1,4 +1,5 @@
-;(function($) {
+$(function(){
+
 
     $("[name=radio_button]").click( function() {
     
@@ -277,4 +278,5 @@
     }
     
   
-})(jQuery);
+
+});
