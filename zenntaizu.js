@@ -1,6 +1,5 @@
 $(function(){
 
-
     $("[name=radio_button]").click( function() {
     
         //まずイベントを全削除する
@@ -264,7 +263,7 @@ $(function(){
     
         //クリックされていたら以下を実行 
         ctx.lineWidth = ($( "#eraser_size" ).slider( "value" ));
-        ctx.strokeStyle =  $("#canvas").css( "background-color" );   //線のカラー
+        ctx.strokeStyle = "#FFFFFF";   //線のカラー
         ctx.lineCap = 'round';              　 //線の両端に丸みを付けてスムーズな描画にする
         ctx.beginPath();　　                   //パスをリセットする。いや、パスって何？要素とかアイテムみたいなこと？
         ctx.moveTo(mousex, mousey); 　　　     //パスの開始座標をクリックした点にする
@@ -278,5 +277,4 @@ $(function(){
     }
     
   
-
 });
